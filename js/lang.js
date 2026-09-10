@@ -76,7 +76,12 @@ const langData = {
         weekdays: "Bazar ertəsi – Cümə",
         saturday: "Şənbə",
         sunday: "Bazar",
-        closed: "Bağlı"
+        closed: "Bağlı",
+        footer_nav_title: "Keçidlər",
+        footer_products_title: "Məhsullar",
+        footer_about_short: "Azərbaycanın premium avtomobil altlıqları istehsalçısı. 2019-cu ildən etibarlı keyfiyyət.",
+        footer_hours: "B.e – Şnb: 09:00–19:00",
+        read_more_btn: "Ardını Oxu"
     },
     ru: {
         nav_home: "Главная",
@@ -155,6 +160,11 @@ const langData = {
         weekdays: "Понедельник – Пятница",
         saturday: "Суббота",
         sunday: "Воскресенье",
-        closed: "Закрыто"
+        closed: "Закрыто",
+        footer_nav_title: "Навигация",
+        footer_products_title: "Продукты",
+        footer_about_short: "Производитель премиальных автомобильных ковриков Азербайджана. Надёжное качество с 2019 года.",
+        footer_hours: "Пн – Сб: 09:00–19:00",
+        read_more_btn: "Читать далее"
     }
 };
