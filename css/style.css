@@ -219,7 +219,7 @@ ul {
 .hero {
     height: 100vh;
     min-height: 700px;
-    background: url('https://images.pexels.com/photos/6686455/pexels-photo-6686455.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop') center bottom/cover no-repeat;
+    background: url('../anasehifesekil.jpg') center center/cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
