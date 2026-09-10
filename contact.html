@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PremiumCar.az - Əlaqə</title>
+    <meta name="description" content="PremiumCar.az ilə əlaqə saxlayın. Telefon, WhatsApp, e-poçt və ünvan məlumatları.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logopremiumcar.jpg" alt="PremiumCar.az Logo" id="brand-logo" onerror="this.style.display='none'; document.getElementById('brand-text').style.display='block';">
+                <span id="brand-text" style="display:none;">PremiumCar.az</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" data-i18n="nav_home">Ana səhifə</a></li>
+                <li><a href="about.html" data-i18n="nav_about">Haqqımızda</a></li>
+                <li><a href="index.html#delivery" data-i18n="nav_delivery">Çatdırılma</a></li>
+                <li><a href="contact.html" data-i18n="nav_contact" class="active-link">Əlaqə</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="lang-switch">
+                    <button class="lang-btn active" data-lang="az">AZ</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                </div>
+                <a href="index.html#order" class="btn-primary btn-sm" data-i18n="nav_order">Sifariş Et</a>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-hero">
+        <div class="page-hero-overlay"></div>
+        <div class="container page-hero-content">
+            <p class="page-breadcrumb"><a href="index.html">Ana Səhifə</a> / <span data-i18n="nav_contact">Əlaqə</span></p>
+            <h1 data-i18n="contact_title" class="glow-text">Əlaqə və Ünvan</h1>
+        </div>
+    </div>
+
+    <section class="about-page-section">
+        <div class="container">
+            <!-- 4 Contact Cards -->
+            <div class="contact-page-grid">
+                <div class="contact-page-card neon-border">
+                    <div class="icon-box-lg"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Telefon</h3>
+                    <p><a href="tel:0502226000">0502226000</a></p>
+                    <p><a href="tel:0702336000">0702336000</a></p>
+                    <a href="tel:0502226000" class="btn-primary btn-sm" style="margin-top:20px;" data-i18n="call_now">İndi Zəng Et</a>
+                </div>
+                <div class="contact-page-card neon-border">
+                    <div class="icon-box-lg"><i class="fab fa-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>0502226000</p>
+                    <a href="https://wa.me/994502226000" target="_blank" class="btn-primary btn-sm" style="margin-top:20px;" data-i18n="write_whatsapp">WhatsApp-a Yaz</a>
+                </div>
+                <div class="contact-page-card neon-border">
+                    <div class="icon-box-lg"><i class="fas fa-envelope"></i></div>
+                    <h3>E-poçt</h3>
+                    <p><a href="mailto:info@premiumcar.az">info@premiumcar.az</a></p>
+                    <a href="mailto:info@premiumcar.az" class="btn-primary btn-sm" style="margin-top:20px;" data-i18n="send_email">E-poçt Göndər</a>
+                </div>
+                <div class="contact-page-card neon-border">
+                    <div class="icon-box-lg"><i class="fab fa-instagram"></i></div>
+                    <h3>Instagram</h3>
+                    <p>@premiumcar.az</p>
+                    <a href="https://www.instagram.com/premiumcar.az/" target="_blank" class="btn-primary btn-sm" style="margin-top:20px;" data-i18n="follow_instagram">İzlə</a>
+                </div>
+            </div>
+
+            <!-- Working Hours & Map -->
+            <div class="contact-bottom-grid">
+                <div class="contact-hours neon-border">
+                    <h3 data-i18n="working_hours_title">İş Saatları</h3>
+                    <div class="hours-list">
+                        <div class="hours-row">
+                            <span data-i18n="weekdays">Bazar ertəsi – Cümə</span>
+                            <span class="hours-time">09:00 – 19:00</span>
+                        </div>
+                        <div class="hours-row">
+                            <span data-i18n="saturday">Şənbə</span>
+                            <span class="hours-time">09:00 – 17:00</span>
+                        </div>
+                        <div class="hours-row closed">
+                            <span data-i18n="sunday">Bazar</span>
+                            <span class="hours-time" data-i18n="closed">Bağlı</span>
+                        </div>
+                    </div>
+                    <div class="address-info">
+                        <i class="fas fa-map-marker-alt" style="color:var(--primary-color);"></i>
+                        <span data-i18n="address_text">Bakı şəhəri</span>
+                    </div>
+                </div>
+                <div class="contact-map neon-border">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d194473.18588825854!2d49.71487532349889!3d40.39459247477526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" width="100%" height="100%" style="border:0; filter:invert(90%) hue-rotate(180deg);" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-logo">
+                    <img src="logopremiumcar.jpg" alt="PremiumCar.az" style="height:40px; mix-blend-mode:screen;">
+                </div>
+                <p data-i18n="footer_text">© 2026 PremiumCar.az. Bütün hüquqlar qorunur.</p>
+                <div class="footer-links">
+                    <a href="about.html" data-i18n="nav_about">Haqqımızda</a>
+                    <a href="contact.html" data-i18n="nav_contact">Əlaqə</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/lang.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
