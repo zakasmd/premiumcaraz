@@ -81,7 +81,11 @@ const langData = {
         footer_products_title: "Məhsullar",
         footer_about_short: "Azərbaycanın premium avtomobil altlıqları istehsalçısı. 2019-cu ildən etibarlı keyfiyyət.",
         footer_hours: "B.e – Şnb: 09:00–19:00",
-        read_more_btn: "Ardını Oxu"
+        read_more_btn: "Ardını Oxu",
+        contact_phone_label: "Telefon & WhatsApp",
+        contact_email_label: "E-poçt",
+        contact_address_label: "Ünvan",
+        contact_whatsapp_label: "WhatsApp"
     },
     ru: {
         nav_home: "Главная",
@@ -165,6 +169,10 @@ const langData = {
         footer_products_title: "Продукты",
         footer_about_short: "Производитель премиальных автомобильных ковриков Азербайджана. Надёжное качество с 2019 года.",
         footer_hours: "Пн – Сб: 09:00–19:00",
-        read_more_btn: "Читать далее"
+        read_more_btn: "Читать далее",
+        contact_phone_label: "Телефон & WhatsApp",
+        contact_email_label: "Эл. почта",
+        contact_address_label: "Адрес",
+        contact_whatsapp_label: "WhatsApp"
     }
 };
